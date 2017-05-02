@@ -11,4 +11,14 @@ class App < Sinatra::Base
     @links = Links.all
     erb :link
   end
+
+  get '/submit' do
+    erb :submit
+  end
+
+  post '/add' do
+  	Links.create(title: params[:title], url: params[:url])
+    redirect '/links'
+  end
+
 end
