@@ -1,6 +1,6 @@
+ENV["RACK_ENV"] ||= "development"
 require 'sinatra/base'
 require './lib/links'
-
 
 class App < Sinatra::Base
   #enable :sessions

@@ -1,10 +1,10 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/bnoonan/new_projects/bookmark_manager/app.rb": [
+      "/Users/sblausten/Documents/Makers/databases/app.rb": [
         1,
         1,
-        null,
+        1,
         null,
         1,
         null,
@@ -28,7 +28,7 @@
         null,
         null
       ],
-      "/Users/bnoonan/new_projects/bookmark_manager/spec/features/creating_links_spec.rb": [
+      "/Users/sblausten/Documents/Makers/databases/spec/features/creating_links_spec.rb": [
         null,
         1,
         1,
@@ -42,7 +42,7 @@
         null,
         null
       ],
-      "/Users/bnoonan/new_projects/bookmark_manager/spec/features/view_links_spec.rb": [
+      "/Users/sblausten/Documents/Makers/databases/spec/features/view_links_spec.rb": [
         null,
         1,
         1,
@@ -57,6 +57,6 @@
         null
       ]
     },
-    "timestamp": 1493742982
+    "timestamp": 1493744479
   }
 }
