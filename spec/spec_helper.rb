@@ -1,8 +1,9 @@
-require_relative './features/view_links_spec.rb'
 require 'capybara/rspec'
 require 'simplecov'
+require 'sinatra'
 require 'simplecov-console'
 require 'data_mapper'
+require './lib/link'
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::Console,
@@ -20,9 +21,5 @@ end
 ENV['RACK_ENV'] = 'test'
 
 require File.join(File.dirname(__FILE__), '..', 'app.rb')
-
-require 'capybara'
-require 'capybara/rspec'
-require 'rspec'
 
 Capybara.app = App
