@@ -1,6 +1,6 @@
 require 'data_mapper'
 
-class Link
+class Links 
 	include DataMapper::Resource
 
 	property :id, Serial

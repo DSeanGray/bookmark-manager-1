@@ -1,15 +1,23 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/sblausten/Documents/Makers/databases/app.rb": [
+      "/Users/bnoonan/new_projects/bookmark_manager/app.rb": [
+        1,
         1,
         null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
         1,
         1,
         null,
         null
       ],
-      "/Users/sblausten/Documents/Makers/databases/spec/features/view_links_spec.rb": [
+      "/Users/bnoonan/new_projects/bookmark_manager/spec/features/view_links_spec.rb": [
         null,
         1,
         1,
@@ -17,13 +25,13 @@
         1,
         1,
         null,
-        0,
-        0,
+        1,
+        1,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1493737611
+    "timestamp": 1493739752
   }
 }

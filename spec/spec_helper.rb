@@ -3,7 +3,7 @@ require 'simplecov'
 require 'sinatra'
 require 'simplecov-console'
 require 'data_mapper'
-require './lib/link'
+require './lib/links'
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::Console,
