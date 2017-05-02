@@ -1,11 +1,12 @@
 require 'sinatra/base'
 require './lib/links'
 
+
 class App < Sinatra::Base
   #enable :sessions
 
   get '/' do
-  end 
+  end
 
   get '/links' do
     @links = Links.all
