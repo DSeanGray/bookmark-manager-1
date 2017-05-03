@@ -6,6 +6,7 @@ require 'sinatra'
 require 'simplecov-console'
 require 'data_mapper'
 require './lib/links'
+require './lib/tag'
 require 'database_cleaner'
 
 DatabaseCleaner.strategy = :truncation

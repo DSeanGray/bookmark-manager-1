@@ -1,13 +1,11 @@
-
-feature 'Add link' do
-  scenario 'submit a new link and see it has been added' do
+feature 'Adding tags' do
+  scenario 'The link has a tag' do
     visit '/submit'
     fill_in 'title', with: 'Guardian'
     fill_in 'url', with: 'https://guardian.com'
     fill_in 'tags', with: 'Media'
     click_button 'submit'
-    within 'ul#links' do
-    	expect(page).to have_content 'Guardian'
-    end
+    links = Links.first
+    expect(links.tags.map(&:name)).to include 'Media'
   end
 end
