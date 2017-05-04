@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/bnoonan/new_projects/bookmark_manager/app.rb": [
+      "/Users/David/Projects/clones/databases/app.rb": [
         1,
         1,
         1,
@@ -33,7 +33,7 @@
         null,
         null
       ],
-      "/Users/bnoonan/new_projects/bookmark_manager/data_mapper_setup.rb": [
+      "/Users/David/Projects/clones/databases/data_mapper_setup.rb": [
         1,
         1,
         null,
@@ -44,7 +44,7 @@
         1,
         1
       ],
-      "/Users/bnoonan/new_projects/bookmark_manager/spec/features/creating_links_spec.rb": [
+      "/Users/David/Projects/clones/databases/spec/features/creating_links_spec.rb": [
         null,
         1,
         1,
@@ -59,7 +59,7 @@
         null,
         null
       ],
-      "/Users/bnoonan/new_projects/bookmark_manager/spec/features/tag_spec.rb": [
+      "/Users/David/Projects/clones/databases/spec/features/tag_spec.rb": [
         1,
         1,
         1,
@@ -72,7 +72,7 @@
         null,
         null
       ],
-      "/Users/bnoonan/new_projects/bookmark_manager/spec/features/view_links_spec.rb": [
+      "/Users/David/Projects/clones/databases/spec/features/view_links_spec.rb": [
         null,
         1,
         1,
@@ -87,6 +87,6 @@
         null
       ]
     },
-    "timestamp": 1493830290
+    "timestamp": 1493893917
   }
 }

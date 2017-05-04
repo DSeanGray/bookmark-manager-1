@@ -146,6 +146,7 @@ DEPENDENCIES
   data_mapper
   database_cleaner
   dm-postgres-adapter
+  rack (= 2.0.1)
   rails_helper
   rake
   rspec
